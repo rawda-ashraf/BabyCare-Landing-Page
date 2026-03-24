@@ -1,0 +1,463 @@
+:root {
+  --mainColor: #ff4880;
+  --whitecolor: #ffecf2;
+  --darkBlue: #393d72;
+  --lightBlue: #4d65f9;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--whitecolor);
+}
+.title-border-radius {
+  border-radius: 60% 30%;
+  color: var(--mainColor);
+  border-color: var(--mainColor) !important;
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.nav1 {
+  background-color: var(--mainColor);
+  color: var(--whitecolor);
+  border-radius: 0 50px 0 50px;
+}
+.fa-location-dot,
+.fa-envelope {
+  color: var(--lightBlue);
+}
+.nav-div-icon {
+  width: 40px;
+  background-color: var(--whitecolor);
+  color: var(--lightBlue);
+}
+.nav-div-icon:hover {
+  background-color: var(--lightBlue);
+  color: var(--whitecolor);
+  cursor: pointer;
+}
+.navbar-brand {
+  font-family: "Fredoka", sans-serif;
+  color: var(--mainColor);
+}
+.navbar-brand span {
+  color: var(--lightBlue);
+}
+.nav-link {
+  color: rgba(0, 0, 0, 0.55);
+}
+.nav-link:hover,
+.dropdown-item:hover,
+.dropdown-menu:hover {
+  color: var(--mainColor) !important;
+}
+.dropdown-item:hover {
+  background-color: var(--lightBlue) !important;
+}
+.fa-phone-volume {
+  color: var(--mainColor);
+}
+.nav-line-br {
+  height: 50px;
+  width: 1px;
+  background-color: var(--mainColor);
+}
+.nav-num-p1 {
+  color: var(--mainColor);
+}
+.nav-num-p2 {
+  color: var(--lightBlue);
+  cursor: pointer;
+}
+.nav-search {
+  width: 50px;
+  background-color: var(--mainColor);
+  color: var(--whitecolor);
+}
+.nav-search:hover {
+  background-color: var(--lightBlue);
+  color: var(--whitecolor);
+  cursor: pointer;
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.main-section {
+  width: 100%;
+  min-height: 80vh;
+  background-image: url(../images/hero-img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-section-layer {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.05));
+}
+.main-section-row {
+  height: 80vh;
+}
+.main-section-text h2 {
+  color: var(--mainColor);
+}
+.main-section-text h1 {
+  color: var(--whitecolor);
+  font-family: "Fredoka", sans-serif;
+  font-size: clamp(32px, 5vw, 70px);
+}
+.btn {
+  background-color: var(--mainColor);
+  color: var(--whitecolor);
+  border-radius: 25% 10%;
+}
+.btn:hover {
+  background-color: var(--lightBlue);
+  color: var(--mainColor);
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.about {
+  width: 100%;
+  background-image: url(../images/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-section-layer {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.8)
+  );
+}
+.about-head {
+  text-align: center;
+  color: var(--mainColor);
+}
+.section-header-h2 {
+  font-family: "Fredoka", sans-serif;
+}
+.col-one {
+  height: 50vh;
+  height: 80%;
+  min-height: 400px;
+  background-image: url(../images/about.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50% 20% / 10% 40%;
+}
+.about-h2 {
+  color: var(--darkBlue);
+}
+.about-p {
+  color: var(--darkBlue);
+}
+.about-list-rows {
+  color: var(--darkBlue);
+}
+.li-two {
+  color: var(--mainColor);
+}
+.li-three {
+  color: var(--lightBlue);
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.Services {
+  background: linear-gradient(
+    rgba(255, 72, 128, 0.05),
+    rgba(255, 72, 128, 0.2)
+  );
+}
+.section-header {
+  text-align: center;
+}
+.section-header h2 {
+  color: var(--darkBlue);
+  font-family: "Fredoka", sans-serif;
+  color: var(--darkBlue);
+}
+.service {
+  text-align: center;
+  background-color: var(--whitecolor);
+  border-radius: 50% 20% / 10% 40%;
+  border: 1px solid var(--mainColor);
+  color: var(--darkBlue);
+  transition: all 1s;
+}
+.service-icone {
+  color: var(--mainColor);
+  font-size: 60px;
+}
+.service:hover {
+  background-color: var(--lightBlue);
+}
+.service:hover .service-icone {
+  color: var(--whitecolor);
+}
+.service:hover .btn {
+  background-color: var(--whitecolor);
+  color: var(--mainColor);
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.program {
+  border-radius: 50% 20% / 10% 40%;
+  background-color: white;
+  border-color: var(--whitecolor) !important;
+}
+.program-hold-img {
+  width: 100%;
+  height: 30%;
+  background-color: var(--darkBlue);
+  border-radius: 50% 20% / 10% 40%;
+}
+.program-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50% 20% / 10% 40%;
+  transition: transform 0.4s;
+}
+.program-price {
+  background-color: var(--mainColor);
+  color: var(--whitecolor);
+}
+.program-price {
+  width: 100px;
+  left: 40%;
+  top: -20px !important;
+  text-align: center;
+  border-radius: 25% 10%;
+}
+.program-line {
+  height: 1px;
+  width: 100%;
+  background-color: var(--mainColor);
+}
+.program-bottom {
+  background-color: var(--mainColor);
+  color: var(--whitecolor);
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.program-h3,
+.program-p {
+  color: var(--darkBlue);
+}
+.program-teacher-img-outer {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background-color: var(--mainColor);
+  transition: transform 0.4s;
+}
+.program-teacher-img {
+  background-image: url(../images/program-teacher.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 4px solid var(--whitecolor);
+}
+.teacher-name {
+  color: var(--mainColor);
+}
+.teacher-job {
+  color: var(--darkBlue);
+}
+.program:hover .program-img,
+.program:hover .program-teacher-img-outer {
+  transform: scale(1.2);
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.event {
+  background-color: white;
+  border-color: var(--mainColor) !important;
+  transition: transform 0.4s;
+}
+.event-h3,
+.event-p {
+  color: var(--darkBlue);
+  transition: transform 0.4s;
+}
+.event-hold-img {
+  width: 100%;
+  height: 30%;
+  background-color: var(--mainColor);
+}
+.event-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  transition: transform 0.4s;
+}
+.event-date {
+  width: 100px;
+  left: 40%;
+  top: -20px !important;
+  text-align: center;
+  background-color: var(--lightBlue);
+  color: var(--whitecolor);
+}
+.event-top {
+  background-color: var(--lightBlue);
+  color: var(--whitecolor);
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.event:hover {
+  cursor: pointer;
+}
+.event:hover .event-img {
+  transform: scale(1.1);
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.team {
+  border: 1px solid var(--mainColor);
+  border-radius: 50% 20% / 10% 40%;
+  background-color: white;
+}
+.team-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50% 20% / 10% 40%;
+  width: 100%;
+  height: 40vh;
+}
+.event-h3 {
+  color: var(--mainColor);
+}
+.event-p {
+  color: var(--darkBlue);
+}
+
+.team-icone i {
+  background-color: var(--mainColor);
+  bottom: 10px;
+  color: var(--whitecolor);
+}
+.team-icone-b {
+  visibility: hidden;
+  transition: transform 0.4s;
+}
+.team:hover .team-icone-b {
+  visibility: visible;
+}
+.team-icone i:hover {
+  background-color: var(--lightBlue);
+  cursor: pointer;
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.testimonial {
+  border: 1px solid var(--mainColor);
+  border-radius: 50% 20% / 10% 40%;
+  background-color: white;
+}
+.testimonial-img {
+  background-image: url(../images/program-teacher.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 4px solid var(--whitecolor);
+}
+.testimonial-img-holder {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  transition: transform 0.4s;
+  border: 2px dotted var(--mainColor);
+}
+.fa-quote-right {
+  font-size: 40px;
+  color: var(--mainColor);
+  top: -20px;
+  position: absolute;
+}
+.testimonial-h4,
+.testimonial-p {
+  color: var(--darkBlue);
+}
+.fa-star {
+  color: var(--mainColor);
+}
+.testimonial-line {
+  width: 100%;
+  height: 1px;
+  background-color: var(--mainColor);
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.footer-h2 {
+  color: var(--mainColor);
+}
+.footer-p {
+  color: var(--darkBlue);
+}
+.footers1 {
+  background-image: url(../images/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer-layer {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.8)
+  );
+}
+.footer-h2 span {
+  color: var(--lightBlue);
+}
+.footer-p {
+  color: var(--darkBlue);
+}
+.footer-form,
+.fotter-input {
+  border: 1px solid var(--mainColor);
+}
+.footer-date {
+  border: 1px solid var(--mainColor);
+  border-radius: 50% 20% / 10% 40%;
+  color: var(--darkBlue);
+}
+.footer-info {
+  color: var(--darkBlue);
+}
+.footer-icone {
+  color: var(--mainColor);
+}
+.footer-social div {
+  background-color: var(--mainColor);
+  color: var(--whitecolor);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.footer-social div:hover {
+  background-color: var(--lightBlue);
+  color: var(--whitecolor);
+  cursor: pointer;
+}
+.footer-gallary div {
+  transition: transform 0.4s;
+}
+.footer-gallary div img {
+  border-radius: 50%;
+  border: 2px dotted var(--mainColor);
+}
+.footer-gallary div:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.footers2 {
+  background-color: var(--darkBlue);
+  color: var(--whitecolor);
+}
+.footer2-name {
+  color: var(--mainColor);
+}
