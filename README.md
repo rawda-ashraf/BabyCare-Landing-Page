@@ -3,7 +3,7 @@
 **BabyCare** is a modern, responsive landing page designed for a kids' play area and learning center. The website showcases the center's services, programs, events, team members, and testimonials with a vibrant and child-friendly design.
 
 ## 🔗 Live Demo
-https://vercel-link.vercel.app
+https://baby-care-landing-page-nine.vercel.app/
 
 ##  Preview
 ![Preview](images/main.png)
